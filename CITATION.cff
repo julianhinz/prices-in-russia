@@ -3,10 +3,9 @@
 
 cff-version: 1.2.0
 title: >-
-  Bearing the cost of politics: Consumer prices and
-  welfare in Russia
+  Replication repository for "Bearing the cost of politics: Consumer prices and
+  welfare in Russia"
 message: Please cite the paper using these metadata.
-type: article
 authors:
   - given-names: Julian
     family-names: Hinz
@@ -20,43 +19,59 @@ authors:
     affiliation: University of Luxembourg
 url: 'https://julianhinz.com/research/prices_in_russia/'
 repository: 'https://julianhinz.com/research/prices_in_russia/'
-abstract: >-
-  In August 2014, the Russian Federation implemented
-  an embargo on select food and agricultural imports
-  from Western countries in response to previously
-  imposed economic sanctions. In this paper we
-  quantify the effect of this embargo on consumer
-  prices and welfare in Russia.
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Julian
+      family-names: Hinz
+      email: mail@julianhinz.com
+      affiliation: >-
+        Bielefeld University, Kiel Institute for the
+        World Economy & Kiel Centre for Globalization
+    - given-names: Evgenii
+      family-names: Monastyrenko
+      email: evgenii.monastyrenko@uni.lu
+      affiliation: University of Luxembourg
+  title: >-
+    Bearing the cost of politics: Consumer prices and
+    welfare in Russia
+  abstract: >-
+    In August 2014, the Russian Federation implemented
+    an embargo on select food and agricultural imports
+    from Western countries in response to previously
+    imposed economic sanctions. In this paper we
+    quantify the effect of this embargo on consumer
+    prices and welfare in Russia.
 
-  We provide evidence for the direct effect on
-  monthly consumer prices with a
-  difference-in-differences approach. The embargo
-  caused prices of embargoed goods to rise by up to
-  7.7% — 14.9% in the short run and by on average
-  2.6% — 8.1% until at least 2016. The results
-  further suggest the shock was transmitted to
-  non-embargoed sectors through domestic input-output
-  linkages.
+    We provide evidence for the direct effect on
+    monthly consumer prices with a
+    difference-in-differences approach. The embargo
+    caused prices of embargoed goods to rise by up to
+    7.7% — 14.9% in the short run and by on average
+    2.6% — 8.1% until at least 2016. The results
+    further suggest the shock was transmitted to
+    non-embargoed sectors through domestic input-output
+    linkages.
 
-  We then construct a general equilibrium Ricardian
-  model of trade with input-output linkages and goods
-  that are tradable, non-tradable or embargoed. The
-  model-based counterfactual analysis predicts the
-  overall price index in Russia to have increased by
-  0.33% and welfare to have declined by 1.84% due to
-  the embargo.
-keywords:
-  - Embargo
-  - Sanctions
-  - Consumer prices
-  - Trade policy
-  - Sectoral linkages
-journal: "Journal of International Economics"
-title: "Bearing the cost of politics: Consumer prices and welfare in Russia"
-year: Forthcoming
-# month:
-# start:  # First page number
-# end:  # Last page number
-# issue:
-# volume:
-# doi:
+    We then construct a general equilibrium Ricardian
+    model of trade with input-output linkages and goods
+    that are tradable, non-tradable or embargoed. The
+    model-based counterfactual analysis predicts the
+    overall price index in Russia to have increased by
+    0.33% and welfare to have declined by 1.84% due to
+    the embargo.
+  keywords:
+    - Embargo
+    - Sanctions
+    - Consumer prices
+    - Trade policy
+    - Sectoral linkages
+  journal: "Journal of International Economics"
+  title: "Bearing the cost of politics: Consumer prices and welfare in Russia"
+  year: Forthcoming
+  # month:
+  # start:  # First page number
+  # end:  # Last page number
+  # issue:
+  # volume:
+  # doi:
