@@ -1,4 +1,6 @@
-%This function calculate new wages using the labor market clearing condition
+% This function calculate new wages using the labor market clearing condition
+% adapted from Caliendo & Parro (2015)
+
 function [wf0]=LMC(Xp,Dinp,J,N,B,VAL)
 PQ_vec=reshape(Xp',J*N,1);
  for n = 1:1:N
