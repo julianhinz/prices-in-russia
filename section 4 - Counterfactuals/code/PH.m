@@ -1,4 +1,7 @@
- function [pf0, c]= PH(wages_N,tau_hat,T,B,G,Din,J,N,maxit,tol)
+% This functions computes prices
+% adapted from Caliendo & Parro (2015)
+
+function [pf0, c]= PH(wages_N,tau_hat,T,B,G,Din,J,N,maxit,tol)
 
 % reformating theta vector 
 for   j    = 1:1:J
