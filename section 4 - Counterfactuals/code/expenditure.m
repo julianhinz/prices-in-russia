@@ -1,6 +1,8 @@
 % This function calculates Omega matrix
+% adapted from Caliendo & Parro (2015)
 % Inputs are A = alphas, B = bethas, G = I-O matrix, Dinp = trade shares,
 % tarifap = tarifs, Fp = trade weighted tariffs
+
 function [PQ] = expenditure(alphas,B,G,Dinp,taup,Fp,VAn,wf0,Sn,J,N)
 IA  = zeros(J*N,J*N);
 I_F = 1 - Fp;
