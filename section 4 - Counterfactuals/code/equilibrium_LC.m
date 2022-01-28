@@ -1,4 +1,6 @@
-%% Principal counterfactuals
+% Principal counterfactuals
+% adapted from Caliendo & Parro (2015)
+
 function [wf0, pf0, PQ, Fp, Dinp, ZW, Snp, c, DP, PF] = equilibrium_LC(tau_hat,taup,alphas,T,B,G,Din,J,N,maxit,tol,VAn,Sn,vfactor)
 % initialize vectors of ex-post wage and price factors 
  wf0 = ones(N,1);  pf0 = ones(J,N);
