@@ -1,4 +1,5 @@
-%This function calculates trade shares
+% This function calculates trade shares
+% adapted from Caliendo & Parro (2015)
 
 function Dinp = Dinprime(Din,tau_hat,c,T,J,N)
 
@@ -24,3 +25,4 @@ end
  for n = 1:1:N
     Dinp(:,n) = DD(:,n).*(phat.^(1./LT));
  end
+ 
